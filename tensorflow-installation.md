@@ -139,6 +139,12 @@ sudo apt-get install python3-dev python3-pip libcupti-dev
 
 sudo pip3 install tensorflow-gpu==1.12.0
 
+uninstall numpy if version is greater than 1.16.0 and install less than or equal to 1.16.0
+
+pip3 uninstall numpy
+pip 3 install numpy==1.16.0
+
+
 If this does not work:
 
 sudo pip3 install --upgrade --force-reinstall tensorflow-gpu==1.12.0
